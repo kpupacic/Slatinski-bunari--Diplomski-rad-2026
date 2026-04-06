@@ -58,14 +58,13 @@ export default async function LocalityTypePage({ params }: Props) {
           )}
 
           <article>
-            {/* Name */}
             <h2 className="font-cinzel text-2xl font-semibold text-gray-800 mb-5">
               {source.name}
             </h2>
 
             <div className="space-y-5">
 
-                {/* Info row */}
+                {/* Info */}
                 <div className="flex flex-wrap gap-6 md:gap-15">
                   <div>
                     <span className="block text-xs font-medium text-gray-400 uppercase tracking-wide mb-0.5">
@@ -105,7 +104,7 @@ export default async function LocalityTypePage({ params }: Props) {
                   </p>
                 </div>
 
-                {/* Photos + Video in a row */}
+                {/* Photos + Video */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
                   {/* 2 photos */}
                   {source.photos.length > 0 ? (

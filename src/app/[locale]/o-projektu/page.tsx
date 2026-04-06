@@ -40,15 +40,15 @@ export default async function OProjektuPage() {
             </p>
           </div>
 
-          {/* Project image placeholder */}
-          <div className="w-full md:w-105 shrink-0">
-            <div className="aspect-4/3 rounded-xl bg-linear-to-br from-[#297EB3]/10 to-[#297EB3]/5 border-2 border-dashed border-[#297EB3]/20 flex items-center justify-center">
-              <div className="text-center px-4">
-                <svg className="mx-auto mb-2 w-10 h-10 text-[#297EB3]/30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
-                </svg>
-                <span className="text-xs text-[#297EB3]/40 font-medium">Fotografija projekta</span>
-              </div>
+          {/* Project image */}
+          <div className="w-full md:w-140 shrink-0">
+            <div className="aspect-4/3 rounded-xl overflow-hidden relative">
+              <Image
+                src="/images/os_slatine_projekt_glina.jpg"
+                alt="OŠ Slatine projekt Glina"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -97,19 +97,15 @@ export default async function OProjektuPage() {
           </div>
         </div>
 
-        {/* School gallery placeholders */}
+        {/* School gallery */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="aspect-16/10 rounded-lg bg-linear-to-br from-gray-100 to-gray-50 border-2 border-dashed border-gray-200 flex items-center justify-center"
-            >
-              <div className="text-center">
-                <svg className="mx-auto mb-1 w-8 h-8 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
-                </svg>
-                <span className="text-xs text-gray-300">Foto {i}</span>
-              </div>
+          {[
+            { src: "/images/skola_velika.jpg", alt: "Škola Velika" },
+            { src: "/images/bunari_glina.jpg", alt: "Bunari Glina" },
+            { src: "/images/slatine_crtez.jpg", alt: "Slatine crtež" },
+          ].map((img) => (
+            <div key={img.src} className="aspect-16/10 rounded-lg overflow-hidden relative">
+              <Image src={img.src} alt={img.alt} fill className="object-cover" />
             </div>
           ))}
         </div>
