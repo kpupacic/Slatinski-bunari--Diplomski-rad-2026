@@ -16,7 +16,7 @@ const LOCALITY_COLORS: Record<string, string> = {
   gustirne:           "#ea580c", // orange
   kamenice:           "#11ddee", // cyan
 };
-const DEFAULT_COLOR = "#ef4444"; // red fallback
+const DEFAULT_COLOR = "#ef4444"; // red
 
 function colorForType(type: string): string {
   return LOCALITY_COLORS[type] ?? DEFAULT_COLOR;
