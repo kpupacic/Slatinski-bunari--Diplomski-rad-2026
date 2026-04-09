@@ -12,8 +12,8 @@ import MapSidebar from "./MapSidebar";
 const LOCALITY_COLORS: Record<string, string> = {
   bunari:             "#2563eb", // blue
   skrapinski_bunari:  "#24E06A", // green
-  lokve:              "#9333ea", // purple
-  gustrine:           "#ea580c", // orange
+  lokve:              "#e326fc", // purple
+  gustrine:           "#fcab1e", // orange
   kamenice:           "#11ddee", // cyan
   vrilo:              "#FF30C9", // pink
 };
