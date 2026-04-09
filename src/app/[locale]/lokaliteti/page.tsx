@@ -3,7 +3,7 @@ import Link from "next/link";
 import LightboxImage from "@/components/LightboxImage";
 import { prisma } from "@/lib/prisma";
 
-const TYPE_KEYS = ["bunari", "skrapinski_bunari", "gustirne", "lokve", "kamenice", "vrilo"] as const;
+const TYPE_KEYS = ["bunari", "skrapinski_bunari", "gustrine", "lokve", "kamenice", "vrilo"] as const;
 export type LocalityTypeKey = (typeof TYPE_KEYS)[number];
 
 export default async function LocalitetiPage() {

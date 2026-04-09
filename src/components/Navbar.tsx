@@ -11,7 +11,7 @@ import { routing } from "@/i18n/routing";
 const LOCALITY_DROPDOWN = [
   { key: "bunari",            label: "Bunari" },
   { key: "skrapinski_bunari", label: "Škrapinski bunari" },
-  { key: "gustirne",          label: "Gustirne" },
+  { key: "gustrine",          label: "Gustrine" },
   { key: "lokve",             label: "Lokve" },
   { key: "kamenice",          label: "Kamenice" },
   { key: "vrilo",             label: "Vrilo" },

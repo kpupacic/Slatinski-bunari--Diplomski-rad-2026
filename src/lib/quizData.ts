@@ -18,7 +18,7 @@ export const questions: Question[] = [
       { id: "a", text: { hr: "Lokva", en: "Ponds" } },
       { id: "b", text: { hr: "Bunar", en: "Well" } },
       { id: "c", text: { hr: "Kamenica", en: "Kamenica" } },
-      { id: "d", text: { hr: "Gustirna", en: "Cistern" } },
+      { id: "d", text: { hr: "Gustrina", en: "Cistern" } },
     ],
     correctAnswers: ["b"],
   },
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     type: "multiple",
     options: [
       { id: "a", text: { hr: "Škraparski bunari", en: "Stone wells" } },
-      { id: "b", text: { hr: "Gustirne", en: "Cisterns" } },
+      { id: "b", text: { hr: "Gustrine", en: "Cisterns" } },
       { id: "c", text: { hr: "Kamenice", en: "Kamenice" } },
       { id: "d", text: { hr: "Bunari", en: "Wells" } },
     ],
