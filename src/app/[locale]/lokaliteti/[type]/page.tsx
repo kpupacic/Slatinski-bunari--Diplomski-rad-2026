@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { getLocale } from "next-intl/server";
 import Link from "next/link";
-import Image from "next/image";
+import LightboxImage from "@/components/LightboxImage";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { type LocalityTypeKey } from "../page";
@@ -112,7 +112,7 @@ export default async function LocalityTypePage({ params }: Props) {
                   {source.photos.length > 0 ? (
                     source.photos.slice(0, 2).map((url, i) => (
                       <div key={i} className="relative aspect-4/3 rounded-lg overflow-hidden border border-gray-200">
-                        <Image
+                        <LightboxImage
                           src={url}
                           alt={`${source.name} — ${i + 1}`}
                           fill
