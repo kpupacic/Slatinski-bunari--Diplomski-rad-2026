@@ -76,4 +76,11 @@
     "partnerCity": "City of Split",
     "partnerA1": "A1 Croatia"
   }
+  ,
+  "featuredMovie": {
+    "badge": "Featured",
+    "title": "Slatine wells - short movie",
+    "description": "The film 'Girl and Water' explores the experiences of women whose daily lives have been shaped by water — its scarcity, its weight, and its necessity. Through poetic imagery and an intimate atmosphere, water becomes a symbol of labor, resilience, solidarity, and the legacy transmitted through generations of women's bodies and memories.\n\nIn the space between silence, routine, and shared work, a story unfolds about the invisible strength of women who, carrying water, also carried the life around them. The film speaks of memory inscribed in hands, movements, and everyday rituals, turning a local experience into a universal story of care, survival, and community.",
+    "watchOnYouTube": "Watch on YouTube"
+  }
 }

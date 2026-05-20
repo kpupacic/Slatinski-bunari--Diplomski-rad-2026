@@ -76,4 +76,11 @@
     "partnerCity": "Grad Split",
     "partnerA1": "A1 Hrvatska"
   }
+  ,
+  "featuredMovie": {
+    "badge": "Istaknuti film",
+    "title": "Slatinski bunari - kratki film OŠ Slatine",
+    "description": "Film Djevojka i voda istražuje iskustvo žena čiji su svakodnevni životi bili oblikovani vodom, njezinim nedostatkom, težinom i nužnošću. Kroz poetske slike i intimnu atmosferu, voda postaje simbol rada, izdržljivosti, zajedništva i naslijeđa koje se prenosi kroz generacije ženskih tijela i sjećanja.\n\nU prostoru između tišine, rutine i zajedničkog rada otvara se priča o nevidljivoj snazi žena koje su, noseći vodu, nosile i život oko sebe. Film govori o pamćenju upisanom u ruke, pokrete i svakodnevne rituale, pretvarajući jedno lokalno iskustvo u univerzalnu priču o brizi, opstanku i zajednici.",
+    "watchOnYouTube": "Pogledaj na YouTubeu"
+  }
 }
