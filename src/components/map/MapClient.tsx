@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import type { WaterSource } from "@/types";
-import FeaturedMovie from "@/components/FeaturedMovie";
+import FeaturedMovie from "../FeaturedMovie";
 
 const WaterSourceMap = dynamic(() => import("./WaterSourceMap"), { ssr: false });
 
